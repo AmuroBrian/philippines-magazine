@@ -21,18 +21,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-[#fefffe] to-[#ffffff]`}>
-
-
         <Navbar />
-
-
-
         {/* Children Content */}
         <div className="container mx-auto px-4 py-6">
           {children}
         </div>
-
-
         <footer className="bg-white shadow-sm m-0 w-full dark:bg-gray-800 mt-auto">
           <div className="w-full mx-auto max-w-screen-xl p-6 md:flex md:items-center md:justify-between">
             <div className="text-lg font-semibold text-gray-800 dark:text-white">
