@@ -3,24 +3,23 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-  <>
-   <div className="relative flex justify-center items-center h-screen">
-  <img
-    src="/images/PSEbuilding.jpg"
-    alt="PSE Building"
-    className="w-full h-full object-cover rounded-lg shadow-lg"
-  />
-  
-  <div className="absolute top-5%  bg-black bg-opacity-20 text-white p-6 text-center">
-    <h1 className="text-4xl font-bold">Elite Intelligent Bureau for Philippines Power Players & Influential Figures</h1>
-    <p className="text-lg">-Brian Perez</p>
-  </div>
-   </div>
+    <>
+      <div className="relative flex justify-center items-center h-screen">
+        <img
+          src="/images/PSEbuilding.jpg"
+          alt="PSE Building"
+          className="w-full h-full object-cover rounded-lg shadow-lg"
+        />
 
-   <div className="top-5% mt-10 text-black md:text-lg">
+        <div className="absolute top-5%  bg-black bg-opacity-20 text-white p-6 text-center">
+          <h1 className="text-4xl font-bold">Elite Intelligent Bureau for Philippines Power Players & Influential Figures</h1>
+        </div>
+      </div>
+
+      <div className="top-5% mt-10 text-black md:text-lg">
         {/* Adding the icon before the title */}
         <div className="flex items-center mb-4"> {/* Using flex to align the icon and text */}
-          <Image 
+          <Image
             src="/images/marks.png"  // Path to the icon image in your assets folder
             alt="Questions Icon"
             width={30}  // Width of the icon
@@ -29,7 +28,7 @@ export default function Home() {
           />
           <h1 className="text-xl font-bold">What is Entrepreneurship?</h1>
         </div>
-        
+
         <p className="text-lg">
           Entrepreneurship is a process undertaken by an entrepreneur to augment his business interest. Thus Entrepreneurs do not emerge spontaneously on their own. Entrepreneurs appear to have been motivated by a combination and interaction of various factors. Thus entrepreneurship is influenced by a host of factors and in recent years entrepreneurship has become a fine art as it has evolved as a science of management and a catalytic tool of economic growth and development.
         </p>
@@ -123,8 +122,5 @@ Yao did a variety of odd jobs, including working at a printing machine. He learn
 
 
   </>
-
-  
-  
   );
 }
