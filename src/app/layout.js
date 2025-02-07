@@ -25,15 +25,15 @@ export default function RootLayout({ children }) {
         {/* Full-width Navigation Bar */}
         <nav className="bg-gradient-to-r from-[#29C75E] to-[#0e7531] p-4 rounded-b-lg shadow-md w-full">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
-            <div className="text-black text-2xl font-semibold">
+            <div className="text-black text-3xl font-semibold">
               {/* You can put your logo or title here */}
               Philippine Insider Intelligent Magazine
             </div>
             <div className="space-x-4">
               {/* <a href="#" className="text-white hover:text-blue-200">Home</a> */}
-              <a href="#" className="text-black hover:text-blue-100">About</a>
-              <a href="#" className="text-black hover:text-blue-100">CEOs</a>
-              <a href="#" className="text-black hover:text-blue-100">FAQs</a>
+              <a href="#" className="text-black text-2xl hover:text-blue-100">About</a>
+              <a href="#" className="text-black text-2xl hover:text-blue-100">CEOs</a>
+              <a href="#" className="text-black text-2xl hover:text-blue-100">FAQs</a>
             </div>
           </div>
         </nav>
