@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import Navbar from "./navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,21 +22,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-[#fefffe] to-[#ffffff]`}>
 
-        {/* Full-width Navigation Bar */}
-        <nav className="bg-gradient-to-r from-[#29C75E] to-[#0e7531] p-4 rounded-b-lg shadow-md w-full">
-          <div className="max-w-7xl mx-auto flex items-center justify-between">
-            <div className="text-black text-3xl font-semibold">
-              {/* You can put your logo or title here */}
-              Philippine Insider Intelligent Magazine
-            </div>
-            <div className="space-x-4">
-              {/* <a href="#" className="text-white hover:text-blue-200">Home</a> */}
-              <a href="#" className="text-black text-2xl hover:text-blue-100">About</a>
-              <a href="#" className="text-black text-2xl hover:text-blue-100">CEOs</a>
-              <a href="#" className="text-black text-2xl hover:text-blue-100">FAQs</a>
-            </div>
-          </div>
-        </nav>
+
+      <Navbar />
 
 
 
@@ -73,16 +60,12 @@ export default function RootLayout({ children }) {
                 </li>
               </ul>
             </div>
-
           </div>
           <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center text:center md:justify-between">
             <span className="text-sm text-gray-500 text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.
             </span>
           </div>
         </footer>
-
-
-
       </body>
     </html>
   );

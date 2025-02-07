@@ -3,24 +3,23 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-  <>
-   <div className="relative flex justify-center items-center h-screen">
-  <img
-    src="/images/PSEbuilding.jpg"
-    alt="PSE Building"
-    className="w-full h-full object-cover rounded-lg shadow-lg"
-  />
-  
-  <div className="absolute top-5%  bg-black bg-opacity-20 text-white p-6 text-center">
-    <h1 className="text-4xl font-bold">Elite Intelligent Bureau for Philippines Power Players & Influential Figures</h1>
-    <p className="text-lg">-Brian Perez</p>
-  </div>
-   </div>
+    <>
+      <div className="relative flex justify-center items-center h-screen">
+        <img
+          src="/images/PSEbuilding.jpg"
+          alt="PSE Building"
+          className="w-full h-full object-cover rounded-lg shadow-lg"
+        />
 
-   <div className="top-5% mt-10 text-black md:text-lg">
+        <div className="absolute top-5%  bg-black bg-opacity-20 text-white p-6 text-center">
+          <h1 className="text-4xl font-bold">Elite Intelligent Bureau for Philippines Power Players & Influential Figures</h1>
+        </div>
+      </div>
+
+      <div className="top-5% mt-10 text-black md:text-lg">
         {/* Adding the icon before the title */}
         <div className="flex items-center mb-4"> {/* Using flex to align the icon and text */}
-          <Image 
+          <Image
             src="/images/marks.png"  // Path to the icon image in your assets folder
             alt="Questions Icon"
             width={30}  // Width of the icon
@@ -31,6 +30,7 @@ export default function Home() {
         </div>
         
         <p className="text-lg text-xl text-justify">
+
           Entrepreneurship is a process undertaken by an entrepreneur to augment his business interest. Thus Entrepreneurs do not emerge spontaneously on their own. Entrepreneurs appear to have been motivated by a combination and interaction of various factors. Thus entrepreneurship is influenced by a host of factors and in recent years entrepreneurship has become a fine art as it has evolved as a science of management and a catalytic tool of economic growth and development.
         </p>
 
@@ -47,10 +47,11 @@ export default function Home() {
  
  <div className="top-5% left-10 right-20 bg-slate-200 rounded-2xl mt-10 text-black md:text-lg flex flex-col justify-center items-center p-8">
   <h1 className="text-xl font-bold text-center">Top 10 Elite CEOs</h1>
-  <p className="mt-10 w-full max-w-3xl text-lg text-justify ">
+  <p className="mt-10 w-full max-w-3xl text-lg text-justify "  id="patrick-perez">
 
 
   1. <a href="https://en.everybodywiki.com/Patrick_Dela_Cruz_Perez" target="_blank" rel="noopener noreferrer"><b>Patrick Perez (Inspire)</b></a> - Inspire has been engaged with representatives of major companies and has been operating on small scale since 2012. During this period, activities were temporarily halted due to the pandemic, but we resumed operations in 2020. Following the restart, we experienced a surge in consultations from various companies. We have successfully facilitated the entry of Japanese companies into the market, acting as a bridge between Japanese and Philippine businesses. Our achievements have been favorable, and we plan to make a significant public presence in late 2022. We aim to go public within three years and continue our activities with the participation of all companies involved.
+
   <a href="https://en.everybodywiki.com/Patrick_Dela_Cruz_Perez" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Read More</a>
 </p>
 
@@ -125,8 +126,5 @@ Yao did a variety of odd jobs, including working at a printing machine. He learn
 
 
   </>
-
-  
-  
   );
 }
