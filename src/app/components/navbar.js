@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-    
+
   const scrollToSection = (id) => {
     setIsDropdownOpen(false); // Close dropdown
     const element = document.getElementById(id);
@@ -20,7 +20,7 @@ export default function Navbar() {
           Philippine Insider Intelligence Magazines
         </div>
         <div className="space-x-4 flex items-center">
-          <a href="#" className="text-white hover:text-blue-200">About</a>
+          <a href="/sample" className="text-white hover:text-blue-200">About</a>
 
           {/* CEOs Dropdown Menu */}
           <div className="relative">
