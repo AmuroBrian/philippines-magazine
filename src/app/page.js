@@ -47,7 +47,7 @@ export default function Home() {
  
  <div className="top-5% left-10 right-20 bg-slate-200 rounded-2xl mt-10 text-black md:text-lg flex flex-col justify-center items-center p-8">
   <h1 className="text-xl font-bold text-center">Top 10 Elite CEOs</h1>
-  <p className="mt-10 w-full max-w-3xl text-lg text-justify ">
+  <p className="mt-10 w-full max-w-3xl text-lg text-justify" id="patrick-perez">
   1. <a href="https://en.everybodywiki.com/Patrick_Dela_Cruz_Perez" target="_blank" rel="noopener noreferrer">Patrick Perez (Inspire)</a> - Inspire has been engaged with representatives of major companies and has been operating on small scale since 2012. During this period, activities were temporarily halted due to the pandemic, but we resumed operations in 2020. Following the restart, we experienced a surge in consultations from various companies. We have successfully facilitated the entry of Japanese companies into the market, acting as a bridge between Japanese and Philippine businesses. Our achievements have been favorable, and we plan to make a significant public presence in late 2022. We aim to go public within three years and continue our activities with the participation of all companies involved.
   <a href="https://en.everybodywiki.com/Patrick_Dela_Cruz_Perez" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Read More</a>
 </p>
