@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";   
 
 export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -20,7 +21,9 @@ export default function Navbar() {
           Philippine Insider Intelligence Magazines
         </div>
         <div className="space-x-4 flex items-center">
-          <a href="#" className="text-white hover:text-blue-200">About</a>
+        <Link href="/about" className="text-white hover:text-blue-200">
+            About
+          </Link>
 
           {/* CEOs Dropdown Menu */}
           <div className="relative">
@@ -54,7 +57,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <a href="#" className="text-white hover:text-blue-200">FAQ</a>
+          <a href="/" className="text-white hover:text-blue-200">Home</a>
         </div>
       </div>
     </nav>
